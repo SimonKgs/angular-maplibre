@@ -1,0 +1,19 @@
+.map-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.list-group {
+    position: fixed;
+    top: 120px;
+    right: 10px;
+    cursor: pointer;
+}
+
+button {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 999;
+}
