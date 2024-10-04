@@ -8,7 +8,6 @@
     position: fixed;
     top: 120px;
     right: 10px;
-    cursor: pointer;
 }
 
 button {
@@ -16,4 +15,30 @@ button {
     bottom: 50px;
     right: 20px;
     z-index: 999;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-group-item p {
+    margin: 0;
+}
+
+.marker-delete-button {
+    background-color: rgb(184, 0, 0);
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.marker-name {
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
 }
