@@ -21,6 +21,15 @@
                 </div>
             </div>
 
+            <div class="col-4 mb-2">
+                <!-- 
+                to be able to use a standalone inside a normal component
+                I need to import it on the module on imports not on declarations
+                because is like a module itself 
+                -->
+                <counter-alone [counter]="50"/> 
+            </div>
+
         </div>
     </div>
 </div>
